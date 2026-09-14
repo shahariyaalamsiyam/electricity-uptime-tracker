@@ -1,0 +1,11 @@
+# IDE and Language Server Cache
+.cache/
+compile_commands.json
+.vscode/
+
+# Build artifacts
+*.bin
+*.elf
+*.hex
+*.o
+*.a

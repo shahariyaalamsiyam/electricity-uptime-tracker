@@ -1,0 +1,13 @@
+CompileFlags:
+  Remove:
+    - "-mlongcalls"
+    - "-mdisable-hardware-atomics"
+    - "-mfix-esp32-psram-cache-issue"
+    - "-mfix-esp32-psram-cache-strategy=memw"
+    - "-fstrict-volatile-bitfields"
+    - "-fno-tree-switch-conversion"
+    - "-fno-jump-tables"
+Diagnostics:
+  Suppress:
+    - "ovl_no_viable_member_function_in_call"
+    - "ovl_no_viable_function_in_call"
